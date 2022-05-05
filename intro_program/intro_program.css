@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ekran{
+    /* width: 500px; */
+    width: 50%;
+    height: 650px;
+    border-radius: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ÜST KISIM */
+
+.ust{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background:linear-gradient(to left , rgb(248, 37, 160) , rgb(250, 132, 36));
+    color: rgb(248, 211, 217);
+    border-radius: 1rem 1rem 0 0;
+    font-size: 1.3rem;
+    padding: 3rem 5rem 2rem 2rem;
+}
+
+.ust .new{
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    background-color: rgb(248, 179, 191);
+    color: white;
+    padding: .1rem 1rem .5rem 1rem ;
+}
+
+/* ORTA KISIM */
+
+.orta{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    color: grey;
+    font-size: 1.6rem;
+    text-align: left;
+    letter-spacing: .5px;
+    padding: 1rem 2.8rem;
+}
+
+.orta .price{
+    position: absolute;
+    bottom:6rem;
+    right: 2rem;
+    font-size: 4rem;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: .2rem;
+}
+
+.orta .old-price{
+    position: absolute;
+    bottom:2rem;
+    right: 2rem;
+    font-size: 4rem;
+    color: rgb(190, 187, 187);
+    text-decoration: line-through;
+}
+
+/* ALT KISIM */
+
+.alt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: .8rem;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 204, 207);
+    border-radius: 0 0 1rem 1rem;
+    
+}
+
+.alt p{
+    padding: 0 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: grey;
+}
+
+.alt hr{
+    border:2px solid brown;
+    border-radius: 2rem;
+}
+

@@ -1,0 +1,2 @@
+bir tür nav bar ve dropdown
+iç içe her birinde bir dropdown olacak
